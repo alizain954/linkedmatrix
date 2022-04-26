@@ -1,0 +1,40 @@
+Homepage was accessed at 2022-04-25 11:52:38.806667 hours!
+Internal Server Error: /login
+Traceback (most recent call last):
+  File "C:\Users\Innovo\PycharmProjects\linkedmatrix\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Innovo\PycharmProjects\linkedmatrix\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Innovo\PycharmProjects\linkedmatrix\custommiddle\mysite\views.py", line 42, in User_login
+    return redirect('home')
+  File "C:\Users\Innovo\PycharmProjects\linkedmatrix\venv\lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Users\Innovo\PycharmProjects\linkedmatrix\venv\lib\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\Innovo\PycharmProjects\linkedmatrix\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Innovo\PycharmProjects\linkedmatrix\venv\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+Homepage was accessed at 2022-04-25 11:53:08.398471 hours!
+Homepage was accessed at 2022-04-25 11:56:24.398441 hours!
+Internal Server Error: /login
+Traceback (most recent call last):
+  File "C:\Users\Innovo\PycharmProjects\linkedmatrix\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Innovo\PycharmProjects\linkedmatrix\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Innovo\PycharmProjects\linkedmatrix\custommiddle\mysite\views.py", line 41, in User_login
+    print(ip.time())
+AttributeError: 'str' object has no attribute 'time'
+Homepage was accessed at 2022-04-25 11:56:53.082393 hours!
+Internal Server Error: /login
+Traceback (most recent call last):
+  File "C:\Users\Innovo\PycharmProjects\linkedmatrix\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Innovo\PycharmProjects\linkedmatrix\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Innovo\PycharmProjects\linkedmatrix\custommiddle\mysite\views.py", line 41, in User_login
+    print(ip.str(datetime.datetime.now()))
+AttributeError: 'str' object has no attribute 'str'
+Homepage was accessed at 2022-04-25 11:57:28.477296 hours!

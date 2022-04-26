@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% include 'navl.html' %}
+<marquee style="font-size:25px; color:green; background-color:purple; font-weight:bold; margin-top:1%;">
+    User login
+</marquee>
+<hr>
+<form class="container mt-5" method="post">
+    {% csrf_token %}
+    <label><b>Email</b></label>
+    <input type="text" class="form-control" name="uname" placeholder="Enter Email">
+    <label><b>Password</b></label>
+    <input type="password" class="form-control" name="pwd" placeholder="Enter Password">
+    <input type="submit" class="btn btn-primary" style="margin-top:2%">
+ <a href="{% url 'signup' %}" class="btn btn-primary" style="margin-top:2%">Create An Account</a>
+</form>
+</body>
+</html>
